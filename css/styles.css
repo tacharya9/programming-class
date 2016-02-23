@@ -1,0 +1,39 @@
+/* 
+Website: My programming site v.1
+Author: Tanvi Acharya
+*/
+body {
+	background: #f5eff5;
+}
+h1 {
+	color: #000000;
+	font-family: helvetica;
+	text-align: center;
+}
+h1:hover{
+	color:magenta;
+}
+
+p {
+	font-family: georgia;
+	color: #750f75
+}
+p:first-letter{
+	font-size: 28px;
+	font-weight:bold;
+}
+p:first-line {
+	color: #f5eff5;
+}
+hr{
+	border-color: #000000
+}
+#content {
+	width: 600px;
+	border-width: 2px;
+	border-color: #090609;
+	border-style: solid;
+	background-color: #be97be;
+	margin: 50px auto 0 auto;
+	padding: 20px;
+}
