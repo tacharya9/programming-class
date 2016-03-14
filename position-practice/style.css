@@ -1,0 +1,43 @@
+.box{
+
+	margin-right:20px;
+	width:200px;
+	height:200px;
+	margin-bottom:20px;
+	border:10px solid#0000;
+float: right;
+	
+}
+#blue {
+background-color: blue;
+position: relative;
+top:215px;
+left: 240px;
+}
+#green {
+	background-color: green;
+	position: relative;
+	right: 200px;
+}
+#red {
+	background-color: red;
+	position: relative;
+	right: 200px;
+
+}
+#yellow {
+	background-color: yellow;
+position: relative;
+top:215px;
+left: 240px;
+}
+
+#lightblue {
+	background-color: #61CAED;
+	position: absolute;
+	right: 700px;
+	border-width: thick;
+	border-width: 20px;
+	border-color: black;
+}
+

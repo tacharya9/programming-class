@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Intro to JavaScript</title>
+  <style>
+#container p {
+
+	font: georgia;
+	color: red;
+}
+
+  </style>
+</head>
+<body>
+  <div id="container">
+  	<h1 class="headline">Intro to JavaScript</div>
+  <script> 
+  //document.write('Hello, World!')
+  var bodytext = document.createElement('p');
+  console.log(bodytext);
+
+  //create text element 
+  var hello = document.createTextNode('Hello, World!') 
+  console.log(hello);
+
+  //append text to paragraph element
+  bodytext.appendChild(hello);
+  
+  var c = document.getElementById('container');
+
+  //add text to the container div
+  c.appendChild(bodytext);
+
+  //function syntax
+  	//var myFunc = function(){
+  	//console.log("My First function");
+  	
+  	//myFunc();
+
+  	function myFunc(param){
+  		console.log(param);
+  		var container = document.getElementById('container');
+  		var sub = document.createElement('h2')
+  		var name = document.createTextNode(param);
+  		sub.appendChild(name);
+  		container.appendChild(sub);
+  	}
+
+  	myFunc("Tanvi");
+  	myFunc("Acharya");
+
+function popup(abc){
+	alert("Hello, " + abc);
+}
+
+popup("Tanvi");
+
+
+
+  </script>
+</body>
+</html>
